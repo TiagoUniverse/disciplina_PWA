@@ -2,21 +2,10 @@
   "name": "Vendcar",
   "short_name": "VendCar",
   "description": "Um aplicativo de vendas de carros de luxo à sua disposição!",
-  
   "icons": [
     {
       "src": "https://radiant-boba-cdc00b.netlify.app/assets/icons/29.png",
       "sizes": "29x29",
-      "type": "image/png"
-    },
-    {
-      "src": "https://radiant-boba-cdc00b.netlify.app/assets/img/icons/40.png",
-      "sizes": "40x40",
-      "type": "image/png"
-    },
-    {
-      "src": "https://radiant-boba-cdc00b.netlify.app/assets/icon/57.png",
-      "sizes": "57x57",
       "type": "image/png"
     },
     {
