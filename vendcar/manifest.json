@@ -2,19 +2,10 @@
   "name": "Vendcar",
   "short_name": "PWA Teste",
   "icons": [
+    
     {
-      "src": "assets/img/icon_128.png",
-      "sizes": "128x128",
-      "type": "image/png"
-    },
-    {
-      "src": "assets/img/icon_144.png",
-      "sizes": "144x144",
-      "type": "image/png"
-    },
-    {
-      "src": "assets/img/icon_152.png",
-      "sizes": "152x152",
+      "src": "assets/icons/87.png",
+      "sizes": "87x87",
       "type": "image/png"
     },
     {
