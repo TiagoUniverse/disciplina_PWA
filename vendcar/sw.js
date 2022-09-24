@@ -4,8 +4,28 @@ const CACHE_NAME = `my-sample-app-cache-v1`;
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE_NAME);
-    cache.addAll(['/']);
+    cache.addAll([
+      './index.html' ,
+
+      'assets\css\fontawesome-all.min.css' ,
+
+      'assets\css\main.css' ,
+
+      'assets\css\noscript.css' ,
+
+      './elements.html' ,
+
+      './generic.html' ,
+
+
+    ]);
   })());
+});
+
+self.addEventListener('message', function (event) {
+  if (event.data.action === 'skipWaiting') {
+    self.skipWaiting();
+  }
 });
 
 self.addEventListener('fetch', event => {
