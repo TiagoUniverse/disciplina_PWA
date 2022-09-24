@@ -10,6 +10,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="manifest" href="manifest.json">
+
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -29,8 +31,6 @@
 											<li><a href="index.html">Início</a></li>
 											<li><a href="generic.html">História</a></li>
 											<li><a href="elements.html">Produtos</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
 										</ul>
 									</div>
 								</li>
@@ -57,7 +57,7 @@
 									<header>
 										<h4>Audi A7</h4>
 										<p>Carro número 1</p>
-										<img src="images/Audi A7.jpg" style="height: 15cm; margin-left: 3cm;">
+										<img src="images/Audi A7.jpg" style="height: 15cm; margin-left: 3cm;" alt="Carro de luxo Audi A7 preto piano.">
 									</header>
 									<p>
 										O Audi A7 é um hatchback de quatro portas com cinco assentos. Já preparado para 2022 se destaca entre os carros de grande luxo devido à cabine com tecnologia de ponta, amplo espaço de carga. Além de oferecer excelente manejo na condução com forte desempenho do motor V6 de 3 litros.
@@ -67,8 +67,8 @@
 
 									<header>
 										<h4>BMW 750i</h4>
-										<p>Carro número 1</p>
-										<img src="images/BMW 750i.jpg" style="height: 15cm; margin-left: 3cm;">
+										<p>Carro número 2</p>
+										<img src="images/BMW 750i.jpg" alt="Carro BWA braco ano 1990 rebaixado com roda cromada" style="height: 15cm; margin-left: 3cm;">
 									</header>
 									<p>
 										O BMW 750i faz parte da categoria sedã mais avançada da marca, onde cabe apenas tecnologia de vanguarda e luxo. Lançado em 2016, se renova a cada ano e em 2021 ostenta um motor 4.4L V8 turboalimentado, câmbio de 8 velocidades, 2 assentos reclináveis com função massagem e tela para entretenimento de 10,2 polegadas.
@@ -85,6 +85,31 @@ Esse modelo ainda conta com a versão 750Li que oferece mais espaço com portas 
 									
 								</section>
 
+
+								<h2>Fale sobre sua experiência</h2>
+
+								<div class="columns">
+
+									<div class="row g-0">
+										<div class="col-sm-6 col-md-6">
+											<div class="column">
+												<p><button type="button" onclick="getStream('video')">Capturar tela</button></p>
+												
+												<video controls autoplay style="height:180px; width: 240px;"></video>
+											  </div>
+										</div>
+										<div class="col-6 col-md-6">
+											<div class="column">
+												<p><button type="button"   onclick="getStream('audio')">Capturar voz</button></p>
+												
+												<audio controls></audio>
+											  </div>
+										</div>
+									  </div>
+
+									
+									
+								  </div>
 
 								<section>
 									<h4>Entre em contato conosco	</h4>
@@ -154,6 +179,12 @@ Esse modelo ainda conta com a versão 750Li que oferece mais espaço com portas 
 
 			</div>
 
+			<script>
+				if ('serviceWorker' in navigator) {
+					navigator.serviceWorker.register('/sw.js', { scope: '/' });
+				}
+			</script>
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -162,6 +193,7 @@ Esse modelo ainda conta com a versão 750Li que oferece mais espaço com portas 
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/camera.js"></script>
 
 	</body>
 </html>

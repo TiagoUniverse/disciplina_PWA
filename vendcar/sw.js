@@ -7,15 +7,29 @@ self.addEventListener('install', event => {
     cache.addAll([
       './index.html' ,
 
+      './elements.html' ,
+
+      './generic.html' ,
+
       'assets\css\fontawesome-all.min.css' ,
 
       'assets\css\main.css' ,
 
       'assets\css\noscript.css' ,
 
-      './elements.html' ,
-
-      './generic.html' ,
+      './images/Audi A7.jpg',
+      './images/Bugatti La Voiture Noire (1).jpg',
+      './images/BugattiLaVoitureNoire.jpg',
+      './images/Design_sem_nome__5_.jpg',
+      './images/fotoferrari2.jpg',
+      './images/McLaren Senna (1).jpg',
+      './images/McLarenSenna.jpg',
+      './images/pic01.jpg',
+      './images/pic02.jpg',
+      './images/pic03.jpg',
+      './images/pic04.jpg',
+      './images/pic05.jpg',
+     
 
 
     ]);
