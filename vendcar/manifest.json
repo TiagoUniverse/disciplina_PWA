@@ -1,31 +1,39 @@
 {
   "name": "Vendcar",
-  "short_name": "PWA Teste",
+  "short_name": "VendCar",
   "icons": [
-    
     {
-      "src": "assets/icons/87.png",
-      "sizes": "87x87",
+      "src": "https://radiant-boba-cdc00b.netlify.app/assets/icons/29.png",
+      "sizes": "29x29",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/87.png",
-      "sizes": "87x87",
+      "src": "https://radiant-boba-cdc00b.netlify.app/assets/img/icons/40.png",
+      "sizes": "40x40",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/114.png",
+      "src": "https://radiant-boba-cdc00b.netlify.app/assets/icon/57.png",
+      "sizes": "57x57",
+      "type": "image/png"
+    },
+    {
+      "src": "https://radiant-boba-cdc00b.netlify.app/assets/icons/58.png",
+      "sizes": "58x58",
+      "type": "image/png"
+    },
+    {
+      "src": "https://radiant-boba-cdc00b.netlify.app/assets/icons/60.png",
       "sizes": "114x114",
       "type": "image/png"
     },
-    
     {
-      "src": "assets/icons/120.png",
+      "src": "https://radiant-boba-cdc00b.netlify.app/assets/icons/120.png",
       "sizes": "120x120",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/1024.png",
+      "src": "https://radiant-boba-cdc00b.netlify.app/assets/icons/1024.png",
       "sizes": "1024x1024",
       "type": "image/png"
     }
